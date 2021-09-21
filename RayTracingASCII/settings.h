@@ -10,4 +10,4 @@
 
 // TODO: Reference additional headers your program requires here.
 
-void grid(int HEIGHT, int WIDTH);
+void grid(int x, int y);

@@ -1,3 +1,12 @@
+/*
+* Create coordinate system based on rows and columns
+* Draw a ring which is semi-transparant
+* Calculate brightness and change that to characters
+* Print those characters on the screen
+*
+* All constants should be stored as such with their corresponding type
+*/
+
 // Includes
 #include "settings.h"
 
@@ -27,7 +36,8 @@ int main()
 	return 0;
 }
 
-// Prints out amount of rows and columns of given window size as coordinates
+// Prints out amount of rows and columns of given window size as coordinates (starting top left)
+// NEEDS TO START FROM CENTER OF SCREEN
 void grid(int x, int y)
 {
 	int rows, columns;
